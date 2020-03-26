@@ -4,7 +4,7 @@ cat mq_navplatform_navapi.json
     "aws_access_key": "",
     "aws_secret_key": "",
     "jobname" : "{{ env `BUILD_TAG` }}",
-    "ami_regions": ""
+    "ami_regions": "us-west-2"
   },
  "builders": [{
    "type": "amazon-ebs",
